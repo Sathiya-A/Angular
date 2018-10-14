@@ -191,7 +191,7 @@ th{
 .column {
     float: left;
     width: 50%;
-    padding: 10px;
+    padding: 20px;
     height: 300px; /* Should be removed. Only for demonstration */
 }
 
@@ -201,3 +201,4 @@ th{
     display: table;
     clear: both;
 }
+

@@ -122,6 +122,7 @@ export class PurchaseOrderComponent implements OnInit {
     return this.servicePurchaseOrder.getAll()
     .toPromise()
     .then((result) => {
+      console.log(result);
       this.errorMessage = null;
       result.forEach(asset => {
         tempList.push(asset);
